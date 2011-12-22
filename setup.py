@@ -29,7 +29,7 @@ setup(
     keywords = 'flask paster template',
     install_requires = DEPENDENCIES,
     classifiers = [
-        'Development Status :: 1 - Planning',
+        'Development Status :: 4 - Beta',
         'Environment :: Plugins',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License (GPL)',
