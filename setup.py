@@ -15,7 +15,7 @@ DEPENDENCIES = [
 
 setup(
     name = 'flask-project-templates',
-    version = '0.1',
+    version = '0.2',
     description = 'Paster templates for creating Flask projects',
     long_description = README,
     author = 'Mathieu D. (MatToufoutu)',
