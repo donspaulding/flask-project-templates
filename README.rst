@@ -7,6 +7,7 @@ Templates:
 ----------
 
 * flask_base: Flask basic project
+* flask_sqla: Flask project using SQLAlchemy
 
 Installation:
 -------------

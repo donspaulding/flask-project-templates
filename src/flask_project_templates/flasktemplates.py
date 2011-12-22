@@ -31,3 +31,11 @@ class FlaskTemplate(Template):
 class FlaskBasicTemplate(FlaskTemplate):
     _template_dir = 'templates/flask_basic'
     summary = 'Flask basic project'
+
+
+class FlaskSQLAlchemyTemplate(FlaskTemplate):
+    _template_dir = 'templates/flask_sqla'
+    summary = 'Flask project using SQLAlchemy'
+    vars = [
+        var('db_uri', 'Database URI', default='sqlite:///:memory:'),
+    ]

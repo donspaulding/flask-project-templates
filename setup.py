@@ -41,5 +41,6 @@ setup(
     entry_points = """
     [paste.paster_create_template]
     flask_basic=flask_project_templates.flasktemplates:FlaskBasicTemplate
+    flask_sqla=flask_project_templates.flasktemplates:FlaskSQLAlchemyTemplate
     """,
 )
