@@ -33,7 +33,7 @@ setup(
         'Environment :: Plugins',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License (GPL)',
-        'Operating System :: OS Independant',
+        'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
         'Topic :: Software Development :: Code Generators',
