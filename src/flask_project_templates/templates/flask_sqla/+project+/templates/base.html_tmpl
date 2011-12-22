@@ -4,7 +4,7 @@
 <head>
     <title>{% block title %}{% endblock %}</title>
     <script type="text/javascript" src="/static/js/$(project).js"></script>
-    <link rel="stylesheet" type="text/css" href="/static/css/$(project.css)" />
+    <link rel="stylesheet" type="text/css" href="/static/css/$(project).css" />
 </head>
 <body>
 {% block body %}{% endblock %}
