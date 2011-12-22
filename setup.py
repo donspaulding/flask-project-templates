@@ -39,5 +39,7 @@ setup(
         'Topic :: Software Development :: Code Generators',
     ],
     entry_points = """
+    [paste.paster_create_template]
+    flask_basic=flask_project_templates.flasktemplates:FlaskBasicTemplate
     """,
 )
