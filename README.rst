@@ -6,7 +6,7 @@ This package contains templates for creating Flask projects layouts.
 Templates:
 ----------
 
-* flask_base: Flask basic
+* flask_base: Flask basic project
 
 Installation:
 -------------
