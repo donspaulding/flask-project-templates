@@ -19,4 +19,4 @@ From GitHub (latest revision):
 From PyPI:
 **********
 
-    TO BE DONE!
+    pip install flask-project-templates
