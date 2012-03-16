@@ -1,0 +1,16 @@
+{% extends 'bootstrap/starter.html' %}
+
+{% block title %}Welcome to $(project)!{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <link rel="stylesheet/less" href="/static/$(project).less" />
+{% endblock extrahead %}
+
+{% block project_name %}$(project){% endblock %}
+
+{% block extrabody %}
+    {{ block.super }}
+    <script type="text/javascript" src="/static/js/$(project).js"></script>
+{% endblock %}
+

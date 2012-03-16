@@ -15,12 +15,12 @@ DEPENDENCIES = [
 
 setup(
     name = 'flask-project-templates',
-    version = '0.2',
+    version = '0.3',
     description = 'Paster templates for creating Flask projects',
     long_description = README,
-    author = 'Mathieu D. (MatToufoutu)',
-    author_email = 'mattoufootu@gmail.com',
-    url = 'https://github.com/mattoufoutu/flask-project-templates',
+    author = 'Don Spaulding II',
+    author_email = 'donspauldingii@gmail.com',
+    url = 'https://github.com/donspaulding/flask-project-templates',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
     include_package_data = True,
@@ -41,6 +41,7 @@ setup(
     entry_points = """
     [paste.paster_create_template]
     flask_basic=flask_project_templates.flasktemplates:FlaskBasicTemplate
+    flask_bootstrap=flask_project_templates.flasktemplates:FlaskBootstrapTemplate
     flask_sqla=flask_project_templates.flasktemplates:FlaskSQLAlchemyTemplate
     """,
 )

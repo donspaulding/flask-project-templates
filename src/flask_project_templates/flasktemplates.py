@@ -4,7 +4,7 @@ from string import lowercase, uppercase, digits
 from paste.script.templates import Template
 from paste.script.templates import var
 
-CHARSET = lowercase+uppercase+digits
+CHARSET = lowercase + uppercase + digits
 
 
 class FlaskTemplate(Template):
@@ -39,3 +39,8 @@ class FlaskSQLAlchemyTemplate(FlaskTemplate):
     vars = [
         var('db_uri', 'Database URI', default='sqlite:///:memory:'),
     ]
+
+
+class FlaskBootstrapTemplate(FlaskTemplate):
+    _template_dir = 'templates/flask_bootstrap'
+    summary = "Flask project that integrates Twitter's Bootstrap Framework"
